@@ -8,4 +8,3 @@ function randomInn(event){
 }
 
 innBtn.addEventListener('click', randomInn)
-
