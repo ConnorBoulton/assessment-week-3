@@ -1,0 +1,12 @@
+The internet is the system that interconnects other computers and servers by using protocols. 
+Most people mistakenly believe that the terms internet and the world wide web are interchangeable.
+The internet is the foundational connection and communication with other computers, while the web is built on top of the internet. 
+The world wide web is another system that allows users to receive information from documents enabled by hyperlink texts. 
+
+Each computer or server has its own unique IP address, just as housing coordinates do. 
+When a user wants to find a webpage, the user types in the hostname of the IP address that they are searching for. 
+If the IP address is not found in your local cache system, the OS sends a query to the resolver server. 
+The resolver (or ISP) checks its own cache memory. 
+If the IP is still not found, the ISP sends a query to the root server. 
+The root server directs the resolver to the TLD for the .com domain. The resolver asks the TLD for the domain, which then redirects to the last stage, the Authoritative Name Server. 
+The ISP sends the last query to the ANS and finally receives the IP.
